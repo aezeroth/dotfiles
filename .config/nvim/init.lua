@@ -7,10 +7,11 @@ vim.cmd [[
 	]]
 
 require('plug')
-require('telescope')
 require('mason').setup()
 require('cmp-setup')
 require('tokyonight')
+require('telescope-setup')
+
 
 -- Setup lsp configs
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
